@@ -113,7 +113,7 @@ function endGame() {
      ROCKS[i].remove();
      
   }
-  ;
+  
   
   return alert("YOU LOSE!");
 }
@@ -149,7 +149,7 @@ function moveDodgerLeft() {
   if (left > 0) {
     dodger.style.left = `${left - 4}px`;
   }
-  window.requestAnimationFrame(moveDodgerLeft)
+  window.requestAnimationFrame()
 }
   
   /**
@@ -165,7 +165,7 @@ var rightNumbers = dodger.style.left.replace('px', '');
   if (right < 360) {
     dodger.style.left = `${right + 4}px`;
   }
-  window.requestAnimationFrame(moveDodgerRight);
+  window.requestAnimationFrame();
 }
   /**
    * This function should move DODGER to the right
