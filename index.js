@@ -22,7 +22,7 @@ function checkCollision(rock) {
   const top = positionToInteger(rock.style.top);
 
   // rocks are 20px high
-  if (top > 400) {
+  if (top > 360) {
     const dodgerLeftEdge = positionToInteger(DODGER.style.left);
 
     const dodgerRightEdge = dodgerLeftEdge + 40;
