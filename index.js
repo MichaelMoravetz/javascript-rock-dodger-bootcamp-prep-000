@@ -127,7 +127,7 @@ function moveDodger(e) {
     moveDodgerLeft();
   }
   else if (e.which === RIGHT_ARROW) {
-    e.stopPropagation()
+    e.stopPropagation();
     e.preventDefault();
     moveDodgerRight();
   }
@@ -149,7 +149,7 @@ function moveDodgerLeft() {
   if (left > 0) {
     dodger.style.left = `${left - 4}px`;
   }
-  window.requestAnimationFrame()
+  window.requestAnimationFrame
 }
   
   /**
@@ -165,7 +165,7 @@ var rightNumbers = dodger.style.left.replace('px', '');
   if (right < 360) {
     dodger.style.left = `${right + 4}px`;
   }
-  window.requestAnimationFrame();
+  window.requestAnimationFrame;
 }
   /**
    * This function should move DODGER to the right
