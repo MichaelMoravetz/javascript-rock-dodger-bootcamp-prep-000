@@ -23,7 +23,6 @@ function checkCollision(rock) {
 
   // rocks are 20px high
   
- c
   }
 }
 
