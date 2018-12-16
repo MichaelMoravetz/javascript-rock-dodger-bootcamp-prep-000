@@ -147,11 +147,13 @@ function moveDodgerLeft() {
   var left = parseInt(leftNumbers, 10)
  
 
-  window.requestAnimationFrame(function(){
     if (left > 0) {
-      dodger.style.left = `${left - 4}px`;
-    }
-  });
+      
+   window.requestAnimationFrame(function(){
+     dodger.style.left = `${left - 4}px`
+    })
+  
+  }
 }
   
   /**
