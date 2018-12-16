@@ -42,7 +42,7 @@ function checkCollision(rock) {
 function createRock(x) {
   const rock = document.createElement('div');
 
- rock.classList.add'rock';
+ rock.classList.add('rock') ;
   rock.style.left = `${x}px`;
 
   // Hmmm, why would we have used `var` here?
