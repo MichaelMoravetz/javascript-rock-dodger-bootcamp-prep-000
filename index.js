@@ -111,7 +111,7 @@ function endGame() {
      ROCKS[i].remove();
     }
      
-     window.removeEventListener(moveDodger);
+   window.removeEventListener('keydown', moveDodger);
   
   
   
